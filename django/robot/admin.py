@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
+from adminsortable2.admin import SortableAdminMixin
 
 from .models import Library, TestSuite, Settings, TestCase, Keyword, KeywordCall
 
@@ -57,7 +58,7 @@ class KeywordAdmin(admin.ModelAdmin):
 
 
 @admin.register(KeywordCall)
-class KeywordCallAdmin(admin.ModelAdmin):
+class KeywordCallAdmin(SortableAdminMixin, admin.ModelAdmin):
     list_display = (
         'id',
         'index',
@@ -71,3 +72,4 @@ class KeywordCallAdmin(admin.ModelAdmin):
         'arg5',
     )
     list_filter = ('test_case', 'keyword')
+    autocomplete_fields = ['keyword']

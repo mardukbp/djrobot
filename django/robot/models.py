@@ -64,7 +64,7 @@ class Keyword(models.Model):
 
 
 class KeywordCall(models.Model):
-    index = models.PositiveSmallIntegerField(default=1)
+    index = models.PositiveSmallIntegerField(default=0, db_index=True)
     test_case = models.ForeignKey(TestCase, on_delete=models.CASCADE)
     return_value = models.CharField(max_length=255, blank=True)
     keyword = models.ForeignKey(Keyword, on_delete=models.CASCADE)
@@ -80,3 +80,4 @@ class KeywordCall(models.Model):
                 fields=['test_case', 'index'], name='unique_keyword_call_per_test_case'
             )
         ]
+        ordering = ['index']
