@@ -19,5 +19,6 @@ from django.urls import path, include, re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^chaining/', include('smart_selects.urls'))
+    re_path(r'^chaining/', include('smart_selects.urls')),
+    re_path(r'^taggit/', include('taggit_selectize.urls'))
 ]

@@ -41,7 +41,12 @@ INSTALLED_APPS = [
     'django_extensions',
     'adminsortable2',
     'smart_selects',
-    'robot'
+    'taggit',
+    'taggit_selectize',
+    'robotlib',
+    'robotkw',
+    'testspec',
+    'testexec',
 ]
 
 MIDDLEWARE = [
@@ -129,3 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # django-smart-selects
 USE_DJANGO_JQUERY = True
+
+# taggit-selectize
+TAGGIT_TAGS_FROM_STRING = 'taggit_selectize.utils.parse_tags'
+TAGGIT_STRING_FROM_TAGS = 'taggit_selectize.utils.join_tags'
