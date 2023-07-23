@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.8.10 on win32)" generated="20230723 18:50:21.092" rpa="false" schemaversion="4">
+<suite id="s1" name="Test" source="E:\git\djrobot\test.robot">
+<test id="s1-t1" name="Test case 2" line="5">
+<kw name="New Browser" library="Browser">
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20230723 18:50:21.797" level="INFO">{"browser": "chromium", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "E:\\git\\djrobot\\browser\\traces\\000053c2-9424-450a-acdb-9f3fbab85ea8"}</msg>
+<msg timestamp="20230723 18:50:22.172" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"E:\\git\\djrobot\\browser\\traces\\000053c2-9424-450a-acdb-9f3fbab85ea8"}</msg>
+<status status="PASS" starttime="20230723 18:50:21.790" endtime="20230723 18:50:22.173"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>https://www.google.de</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20230723 18:50:22.833" level="INFO">Successfully initialized new page object and opened url: https://www.google.de</msg>
+<msg timestamp="20230723 18:50:22.833" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20230723 18:50:22.174" endtime="20230723 18:50:22.833"/>
+</kw>
+<status status="PASS" starttime="20230723 18:50:21.784" endtime="20230723 18:50:22.834"/>
+</test>
+<status status="PASS" starttime="20230723 18:50:21.094" endtime="20230723 18:50:27.928"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

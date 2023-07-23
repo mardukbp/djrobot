@@ -1,0 +1,64 @@
+{"level":30,"time":"2023-07-23T16:50:21.659Z","pid":8452,"hostname":"ORIUS","msg":"Listening on 54867"}
+{"level":30,"time":"2023-07-23T16:50:21.781Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:21.782Z","pid":8452,"hostname":"ORIUS","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:21.787Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:21.787Z","pid":8452,"hostname":"ORIUS","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:21.791Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\index.js:9898:15)
+    at PlaywrightServer.evaluateJavascript (E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\index.js:9953:75)
+    at E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-07-23T16:50:21.792Z","pid":8452,"hostname":"ORIUS","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-07-23T16:50:21.798Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-07-23T16:50:22.170Z","pid":8452,"hostname":"ORIUS","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-07-23T16:50:22.175Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\index.js:9898:15)
+    at PlaywrightServer.evaluateJavascript (E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\index.js:9953:75)
+    at E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (E:\git\djrobot\.venv\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-07-23T16:50:22.175Z","pid":8452,"hostname":"ORIUS","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-07-23T16:50:22.181Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-07-23T16:50:22.181Z","pid":8452,"hostname":"ORIUS","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-07-23T16:50:22.195Z","pid":8452,"hostname":"ORIUS","msg":"Changed active context"}
+{"level":30,"time":"2023-07-23T16:50:22.336Z","pid":8452,"hostname":"ORIUS","msg":"Video path: undefined"}
+{"level":30,"time":"2023-07-23T16:50:22.336Z","pid":8452,"hostname":"ORIUS","msg":"Changed active page"}
+{"level":30,"time":"2023-07-23T16:50:22.829Z","pid":8452,"hostname":"ORIUS","msg":"End of node method newPage"}
+{"level":30,"time":"2023-07-23T16:50:27.841Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.850Z","pid":8452,"hostname":"ORIUS","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.855Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.859Z","pid":8452,"hostname":"ORIUS","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.862Z","pid":8452,"hostname":"ORIUS","msg":"Changed active context"}
+{"level":30,"time":"2023-07-23T16:50:27.863Z","pid":8452,"hostname":"ORIUS","msg":"Changing current active page"}
+{"level":30,"time":"2023-07-23T16:50:27.863Z","pid":8452,"hostname":"ORIUS","msg":"Changed active page"}
+{"level":30,"time":"2023-07-23T16:50:27.868Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.872Z","pid":8452,"hostname":"ORIUS","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.875Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-07-23T16:50:27.875Z","pid":8452,"hostname":"ORIUS","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-07-23T16:50:27.878Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-07-23T16:50:27.878Z","pid":8452,"hostname":"ORIUS","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-07-23T16:50:27.884Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.886Z","pid":8452,"hostname":"ORIUS","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.888Z","pid":8452,"hostname":"ORIUS","msg":"Changed active context"}
+{"level":30,"time":"2023-07-23T16:50:27.888Z","pid":8452,"hostname":"ORIUS","msg":"Changing current active page"}
+{"level":30,"time":"2023-07-23T16:50:27.888Z","pid":8452,"hostname":"ORIUS","msg":"Changed active page"}
+{"level":30,"time":"2023-07-23T16:50:27.892Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-07-23T16:50:27.902Z","pid":8452,"hostname":"ORIUS","msg":"Removed page=0111e881-94dc-4d1f-a534-5de5e0c556b2 from context=be626a75-393e-4c1f-9d6a-af01f92334d3 page stack"}
+{"level":30,"time":"2023-07-23T16:50:27.921Z","pid":8452,"hostname":"ORIUS","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-07-23T16:50:27.932Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.932Z","pid":8452,"hostname":"ORIUS","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-23T16:50:27.983Z","pid":8452,"hostname":"ORIUS","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-07-23T16:50:28.140Z","pid":8452,"hostname":"ORIUS","msg":"End of node method closeAllBrowsers"}
