@@ -32,3 +32,24 @@ The name must be unique
 ### Keyword call
 
 - Show the keyword documentation in a modal
+
+
+## Test execution
+
+/robotexec
+  /static
+    /user.id
+      /testplan.id-testplan.name
+        testplan.name.robot
+        keywords.resource
+        /timestamp
+          output.xml
+          log.html
+
+
+- For test executions older than N months generate the log file from output.xml using rebot
+
+
+## Performance optimizations
+
+- N + 1 queries
