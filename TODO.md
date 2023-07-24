@@ -15,9 +15,13 @@ The name must be unique
 
 - The test sequence cannot be empty
 
+
 ### Test Plan
 
 - Verify that all the libraries referenced in the test cases are imported
+
+- At least one test case must reference the test plan
+
 
 ## UI/UX
 
