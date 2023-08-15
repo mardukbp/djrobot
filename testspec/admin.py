@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
-
+from adminsortable2.admin import SortableAdminBase, SortableTabularInline
 from .models import TestCase, KeywordCall, KeywordCallArgument, KeywordCallOptionalArgument
 
 
-class KeywordCallInline(admin.StackedInline):
+class KeywordCallInline(SortableTabularInline):
     model = KeywordCall
     extra = 1
     fields = ('return_value', 'keyword_name')
-
+    template = 'tabular.html'
 
 @admin.register(TestCase)
-class TestCaseAdmin(admin.ModelAdmin):
+class TestCaseAdmin(SortableAdminBase, admin.ModelAdmin):
     list_display = ('name', 'tag_list', 'documentation')
     list_filter = ('tags',)
     search_fields = ('name',)

@@ -19,6 +19,9 @@ class KeywordCall(robotkw.models.KeywordCall):
     def __str__(self) -> str:
         return f"{self.test_case.name} | {self.index} {self.keyword_name}"
 
+    class Meta:
+        ordering = ['index']
+
 class KeywordCallArgument(robotkw.models.KeywordCallArgument):
     keyword_call = models.ForeignKey(KeywordCall, on_delete=models.CASCADE, related_name='args')
 
